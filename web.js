@@ -10,7 +10,7 @@ app.get('/', function(request, response) {
     }
     content = data;
 
-    response.send(data);
+    response.send(data.toString('utf-8'));
   });
    
 });
